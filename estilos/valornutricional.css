@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Lokicola';
+    src: url('../fonte/LOKICOLA.TTF');
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonte/BebasNeue-Regular.ttf');
+    font-weight: normal; 
+}
+
+:root {
+    --cor0: #FFFFFF;
+    --cor1: #FF7777;
+    --cor2: #FF5555;
+    --cor3: #FF0000;
+    --cor4: #880000;
+
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-coca: 'Lokicola', cursive;
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+    height: 300px;
+    margin: 60px 372px 60px 372px;
+    padding: 500px;
+}
+
+.titulo {
+    text-align: center;
+    background-color: var(--cor3);
+    color: var(--cor0);
+    border: 1px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    text-align: justify;
+    padding: 5px;
+}
+
+h3 {
+    color: rgba(29, 28, 28, 0.938);
+    font-size: 2.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px 120px 15px 120px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.233);
+}
+
+#principal > p {
+    padding: 30px 120px 50px 120px;
+ }
