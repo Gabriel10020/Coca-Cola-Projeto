@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Lokicola';
+    src: url('../fonte/LOKICOLA.TTF');
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonte/BebasNeue-Regular.ttf');
+    font-weight: normal; 
+}
+
+:root {
+    --cor0: #FFFFFF;
+    --cor1: #FF7777;
+    --cor2: #FF5555;
+    --cor3: #FF0000;
+    --cor4: #880000;
+
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-coca: 'Lokicola', cursive;
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+
+}
+
+header > h1 {
+    background-color: var(--cor3);
+    color: var(--cor0);
+    font-size: 7em;
+    text-align: center;
+    padding: 30px 20px 15px 20px;
+    font-family:'Lokicola';
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.308);
+}
+
+header > div {
+    background-color: var(--cor4);
+    padding: 8px 10px 8px 10px;
+    margin: 0px;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.199)
+}
+
+header > div > a {
+    color: var(--cor0);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 8px 5px 9px 5px;
+}
+
+header > div > a:hover {
+    background-color: var(--cor1);
+    color: var(--cor3);
+    border-radius: 3px;
+}
+
+#principal {
+    margin: auto;
+    width: 70vw;
+    background-color: var(--cor0);
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.308)
+}
+
+#principal > h2 {
+    font-size: 4em;
+    font-family: 'Bebas';
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.308);
+}
+
+#principal > p {
+    color: rgba(29, 28, 28, 0.938);
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px 120px 15px 120px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.233);
+}
+
+#principal > img {
+    display: block;
+    margin: auto;
+    padding: 25px 0px 25px 0px;
+    
+}
+
+footer > p {
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+
+footer > p > a {
+    color: var(--cor0);
+    font-weight: bolder;
+}
+
+footer > p > a:hover {
+    background-color: var(--cor1);
+    color: var(--cor0);
+    border-radius: 3px;
+}
